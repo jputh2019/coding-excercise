@@ -37,7 +37,7 @@ Setup
 
 P.S. By default it runs on the port 8080.
 
-5. Now the service is available on " http://localhost:8080" with HTTP POST method.
+5. Now the service is available on " http://localhost:8088" with HTTP POST method.
 
 
 Test the Service:
@@ -45,7 +45,7 @@ Test the Service:
 
 P.S: Use the id=1 to generate a new question and id=2 to answer the question.
 
-1. Open the Postman client and hit the http://localhost:8080" with HTTP POST method with the following JSON message in the request body:
+1. Open the Postman client and hit the http://localhost:8088" with HTTP POST method with the following JSON message in the request body:
 
 {	
    "id": 1,
