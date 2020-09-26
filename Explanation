@@ -1,0 +1,40 @@
+Setup:
+
+1. Import in your IDE,
+2. Build the project by following command -> mvn clean install
+3. startCodingExerciseServer.bat file available in the coding-exercise directory.
+4. Run the startCodingExerciseServer.bat 
+5. Test the application for the following input: 
+
+Steps:
+
+1. Import the project in IDE mvn clean install and start the project
+2. Open postman client and hit the blow URL with HTTP POST method
+
+URL:  localhost:8080
+CASE 1: Generate question
+{
+   "id": 1,
+   "message": "Hey Service, can you provide me a question with numbers to add?"
+}
+
+CASE 2: Answer the question
+
+{
+   "id": 2,
+   "message": "Great. The original question was \"Please sum the numbers 49,3\" and the answer is 22"
+}
+
+CASE 3: Answer the question
+
+{
+   "id": 2,
+   "message": "Sorry, the original question was \"Please sum the numbers 18,12,4,54,29\" and the answer is 117" 
+}
+
+***********************************************************************************************************
+
+
+
+
+
